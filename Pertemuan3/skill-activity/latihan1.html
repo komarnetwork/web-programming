@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Membuat Tabel Pertama</title>
+
+  <style>
+    table {
+      font-size: 20px;
+    }
+  
+    table>thead>tr>th {
+      padding: 5px;
+    }
+  
+    table>tbody>tr>td {
+      padding: 5px;
+    }
+
+    table,
+    th,
+    td {
+      border: 1px solid black;
+      border-collapse: collapse;
+    }
+
+    th {
+      background-color: #dff0c1;
+    }
+
+    table, td{
+      text-align: center;
+      background-color: #faf5db;
+    }
+
+    caption {
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <table width="500" height="100">
+    <caption>Tabel 1. Tabel 3 baris 4 kolom</caption>
+    <colgroup>
+      <col span="2">
+      <col>
+    </colgroup>
+    <thead>
+      <tr>
+        <th>Header 1</th>
+        <th>Header 2</th>
+        <th>Header 3</th>
+        <th>Header 4</th>
+      </tr>
+    </thead>  
+  
+    <tbody>
+      <tr>
+        <td>A</td>
+        <td>B</td>
+        <td>C</td>
+        <td>D</td>
+      </tr>
+      <tr>
+        <td>E</td>
+        <td>F</td>
+        <td>G</td>
+        <td>H</td>
+    </tbody>
+  </table>
+</body>
+</html>
