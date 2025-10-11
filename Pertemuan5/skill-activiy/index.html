@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pertemuan 5</title>
+  </head>
+  <body>
+    <h2>Membuat Function</h2>
+    <input type="button" value="Tombol Pesan" id="tombol1" onclick="pesan()" /><br /><br />
+
+    <h2>Mengambil Value Element HTML</h2>
+    <input type="text" id="kotak-ku" />
+    <input type="button" value="Klik" onclick="konfirmasi()" />
+
+    <h2>Validasi Formulir</h2>
+    <form name="formku" action="kirim.html" onSubmit="return periksa();">
+      <table>
+        <tr>
+          <td colspan="3"><h3>FORM DATA MAHASISWA</h3></td>
+        </tr>
+        <tr>
+          <td>NPM</td>
+          <td>:</td>
+          <td><input type="text" name="txtnpm" size="15" /></td>
+        </tr>
+        <tr>
+          <td>Nama</td>
+          <td>:</td>
+          <td><input type="text" name="txtnama" size="20" /></td>
+        </tr>
+        <tr>
+          <td colspan="3">
+            <input type="submit" value="Kirim" />
+          </td>
+        </tr>
+      </table>
+    </form>
+
+    <h2>VKlik Tombol Berikut</h2>
+    <input type="button" value="Klik" onClick="buka_halaman();" />
+    <script src="index.js"></script>
+  </body>
+</html>

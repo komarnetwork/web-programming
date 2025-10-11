@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tugas Pertemuan 5</title>
+  </head>
+  <body>
+    <h2>1. Alert dan Variable</h2>
+    <button onclick="tombolPesan()">Tombol Pesan</button>
+
+    <h2>2. Operasi Math</h2>
+    <button onclick="operasiMath()">Hitung</button>
+    <p>Hasil: <span id="hasil">Belum dihitung = 0</span></p>
+
+    <h2>3. Mengambil Value Dari Input</h2>
+    <input type="text" id="sesuatu" name="sesuatu" size="15" />
+    <button onclick="tampilkanPesan()">Tampilkan Pesan</button>
+
+    <h2>4. Validasi Formulir</h2>
+    <form name="formku" onSubmit="return periksa();">
+      <table>
+        <tr>
+          <td>NPM</td>
+          <td>:</td>
+          <td><input type="number" id="npm" name="npm" size="15" /></td>
+        </tr>
+        <tr>
+          <td>Nama</td>
+          <td>:</td>
+          <td><input type="text" id="nama" name="nama" size="20" /></td>
+        </tr>
+        <tr>
+          <td colspan="3">
+            <input type="submit" id="hasilForm" value="Kirim" />
+          </td>
+        </tr>
+      </table>
+    </form>
+
+    <h2>5. Hitung Diskon Otomatis</h2>
+    <table>
+      <tr>
+        <td>Harga</td>
+        <td>:</td>
+        <td><input type="number" id="harga" name="harga" size="15" /></td>
+      </tr>
+      <tr>
+        <td>Diskon (%)</td>
+        <td>:</td>
+        <td><input type="text" id="diskon" name="diskon" size="20" /></td>
+      </tr>
+    </table>
+    <br />
+
+    <div>
+      <label>Total yang harus dibayar:</label>
+      <p id="jumlahTotalBayar">Rp 0</p>
+    </div>
+
+    <h2>6. Redirect Halaman</h2>
+    <input type="button" value="Masuk Halaman" onClick="redirect_halaman();" />
+    <script src="indexTugas.js"></script>
+  </body>
+</html>
