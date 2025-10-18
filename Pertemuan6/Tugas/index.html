@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pertemuan 6</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Profile Mahasiswa</h1>
+      <img src="avatar.png" class="profile-image" alt="Photo" />
+      <div class="biodata-section">
+        <h2>Biodata</h2>
+        <div class="biodata-item">
+          <span class="biodata-label">Nama:</span>
+          <span class="biodata-value">Komarudin</span>
+        </div>
+        <div class="biodata-item">
+          <span class="biodata-label">NIM:</span>
+          <span class="biodata-value">4112757201240040</span>
+        </div>
+        <div class="biodata-item">
+          <span class="biodata-label">Program Studi:</span>
+          <span class="biodata-value">Sistem Informasi</span>
+        </div>
+        <div class="biodata-item">
+          <span class="biodata-label">Semester:</span>
+          <span class="biodata-value">3 (Tiga)</span>
+        </div>
+      </div>
+
+      <div class="biodata-section">
+        <h2>Tentang Saya</h2>
+        <p class="biodata-value">
+          I'm a passionate Full Stack Developer with expertise in building modern web applications. With a strong
+          foundation in both frontend and backend technologies, I create seamless user experiences and robust
+          server-side solutions.
+        </p>
+      </div>
+
+      <button class="klik-button" onclick="klikSaya()">Klik Saya</button>
+    </div>
+
+    <script>
+      function klikSaya() {
+        alert('Terimakasih telah mengunjungi profile saya!');
+      }
+    </script>
+  </body>
+</html>
